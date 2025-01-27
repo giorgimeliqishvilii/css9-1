@@ -1,0 +1,1031 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    display: flex;
+
+}
+
+.asideContainer {
+    flex-direction: column;
+    max-width: 296px;
+    width: 100%;
+    background: #14171F;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.logo-avatarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.logoContainer {
+    border-bottom: 1px solid #3D414B;
+    padding: 0px 16px 16px 16px;
+    margin-top: 24px;
+}
+
+.avatarContainer {
+    display: flex;
+    padding: 12px 0px;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.avatar-nameContainer {
+    display: flex;
+    gap: 8px;
+
+}
+
+.nameContainer {
+    max-width: 113px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.andrioP {
+    color: #FFFFFF;
+
+}
+
+.studentP {
+    color: #929699;
+    font-size: 14px;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.navBarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 137px;
+}
+
+
+.DashBoardDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    width: 100%;
+}
+
+.dashboardSpan {
+    color: #929699;
+}
+
+.setingsNavDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+    gap: 20px;
+}
+
+.settingButtonDiv {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    max-width: 296px;
+    width: 100%;
+    border: 1px solid #7B62FF;
+}
+
+.LogoutButton {
+    display: flex;
+    align-items: center;
+    background-color: #14171F;
+    gap: 12px;
+    color: #7B62FF;
+    border: 0px solid black;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1144px;
+    width: 100%;
+    margin: 24px 32px 32px 32px;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+    width: 100%;
+
+}
+
+.headerNavDiv {
+    display: flex;
+    gap: 24px;
+    max-width: 323px;
+    width: 100%;
+
+}
+
+.headerNavLinks {
+    color: #2F2F2F;
+
+}
+
+.headerSearchDiv {
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.became-classButton {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: #2F2F2F;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #F7F7F7;
+}
+
+.tuneDiv {
+    display: flex;
+    background-image: url(../images/backgroundMain.png);
+    background-size: cover;
+    background-position: center;
+    height: 228px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.tuneP {
+    font-size: 41px;
+    color: #2F2F2F;
+    font-weight: 600;
+    line-height: 48px;
+    margin-left: 40px;
+    max-width: 416px;
+    width: 100%;
+}
+
+.contentButtonsDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 913px;
+    width: 100%;
+
+}
+
+.contentButons {
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    font-size: 14px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #2F2F2F;
+}
+
+.informationButton {
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: 1px solid #3D414B;
+    background: #14171F;
+    padding: 8px 16px;
+}
+
+.firstFormm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formMainDiv {
+    display: flex;
+    max-width: 1080px;
+    gap: 32px;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-informationDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 702px;
+    width: 100%;
+}
+
+.formWrapper {
+    max-width: 702px;
+    width: 100%;
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+
+}
+
+.informationDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 254px;
+    width: 100%;
+    margin-bottom: 16px;
+
+}
+
+.personalSpan {
+    color: #14171F;
+    font-weight: 500;
+}
+
+.uploadSpan {
+    color: #666666;
+    font-size: 14px;
+}
+
+.name-emailDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.nameInputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 327px;
+    width: 100%;
+}
+
+.fullnameLabel {
+    color: #2F2F2F;
+    font-weight: 500;
+
+}
+
+.nameInput {
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    padding: 12px 16px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.emailInput {
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+    padding: 12px 16px;
+    font-size: 14px;
+}
+
+.number-dateDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.ninetwentyButton {
+    padding: 12px 16px;
+    max-width: 68px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #14171F;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.buton-inputDiv {
+    display: flex;
+    gap: 8px;
+}
+
+.numberInput {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    color: #666666;
+    max-width: 251px;
+    width: 100%;
+}
+
+.dateDiv {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.dateInput {
+    border: 0px solid #FFFFFF;
+    max-width: 100px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.submitDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitInput {
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: #7F56D9;
+    color: #FFFFFF;
+    max-width: 104px;
+    width: 100%;
+    font-size: 16px;
+    border: 0px solid red;
+}
+
+.infoDiv {
+    display: flex;
+    max-width: 702px;
+    width: 100%;
+    gap: 24px;
+
+
+}
+
+.personalDiv {
+    max-width: 432px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    gap: 16px;
+}
+
+.personalnformationDiv {
+    display: flex;
+    max-width: 254px;
+    width: 100%;
+}
+
+.personalP {
+    color: #14171F;
+    font-weight: 500;
+}
+
+.detailsInfoDiv {
+    display: flex;
+    padding: 16px;
+    max-width: 400px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.departamentDiv {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding-bottom: 24px;
+
+}
+
+.development-departamentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.departamentSpan {
+    font-size: 14px;
+    color: #666666;
+}
+
+.developmentSpan {
+    color: #14171F;
+}
+
+.additionalDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 246px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    padding: 24px 16px;
+    gap: 16px;
+}
+
+.additionalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoSpan {
+    color: #14171F;
+    font-weight: 500;
+}
+
+.resumeDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.resumeInput {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    color: #666666;
+}
+
+.labelResume {
+    color: #2F2F2F;
+    font-weight: 500;
+}
+
+.aditionalLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.additionalSpan {
+    color: #2F2F2F;
+    font-weight: 500;
+}
+
+.firstSelect {
+    max-width: 115px;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+
+.facebookOption {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #D2F0FF;
+}
+
+.linkedin-httpsDiv {
+    display: flex;
+}
+
+.secondForm {
+    display: flex;
+    gap: 8px;
+}
+
+.httpsInput {
+    max-width: 84px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    color: #666666;
+    font-size: 14px;
+}
+
+.andrioRichardDiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #14171F;
+    max-width: 346px;
+    width: 100%;
+    padding: 16px;
+
+}
+
+.andrioRichardWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.avatarMainDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 12px;
+    background: #FFF;
+    gap: 12px;
+}
+
+.avatarWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatarSettingsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.avatarbackgroundDiv {
+    display: flex;
+    background-image: url(../images/AnimeAvatar.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 124px;
+    width: 100%;
+    height: 124px;
+    align-items: center;
+    justify-content: center;
+}
+
+.andrioNameDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.andrioSpan {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    max-width: 282px;
+    width: 100%;
+    text-align: center;
+    color: #2F2F2F;
+    font-weight: 500;
+}
+
+.student-FreelancesDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.studentButton {
+    padding: 8px 12px;
+    max-width: 133px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.locationMainDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    max-width: 314px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    gap: 8px;
+
+}
+
+.locationDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.locationSpan {
+    color: #2F2F2F;
+    font-weight: 500;
+}
+
+.locationButtonDiv {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.locationButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: #F9FBFC;
+    border-radius: 8px;
+
+}
+
+.evergeenDiv {
+    display: flex;
+    align-items: center;
+    background: #F9FBFC;
+    padding-bottom: 134px;
+    max-width: 282px;
+    width: 100%;
+}
+
+.evergenSelect {
+    width: 100%;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.thirdForm {
+    width: 100%;
+}
+
+
+.aboutDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 12px;
+    background: #FFF;
+    max-width: 314px;
+    gap: 8px;
+    width: 100%;
+}
+
+.about-wordsWrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aboutSpan {
+    color: #2F2F2F;
+    font-size: 16px;
+
+}
+
+.wordsSpan {
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+.dedicatedDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    max-width: 282px;
+    width: 100%;
+}
+
+.dedicatedP {
+    max-width: 250px;
+    width: 100%;
+    color: #666666;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .asideContainer {
+        display: none;
+    }
+
+    .headerNavLinks {
+        font-size: 13px;
+        display: flex;
+        align-items: center
+    }
+    .tuneDiv{
+
+        width: 100%;
+        height: 228px;
+    }
+    .contentButtonsDiv{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .formMainDiv{
+        flex-direction: column-reverse;
+    }
+    .form-informationDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .formWrapper{
+        max-width: none;
+        width: 100%;
+    }
+    .detailsInfoDiv{
+        max-width: none;
+        width: 100%;
+        align-items: center;
+    }
+    .firstFormm{
+        max-width: none;
+
+    }
+    .name-emailDiv{
+        max-width: none;
+    }
+    .nameInputDiv{
+        max-width: none;
+    }
+    .number-dateDiv{
+        max-width: none;
+
+    }
+    .buton-inputDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .numberInput{
+        max-width: none;
+
+    }
+    .infoDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .personalDiv{
+        max-width: none;
+    }
+    .andrioRichardDiv{
+        max-width: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .andrioRichardWrapper{
+        max-width: none;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .andrioNameDiv{
+        max-width: none;
+        width: 100%;
+        align-items: center;
+    }
+    .student-FreelancesDiv{
+        max-width: 640px;
+        width: 100%;
+        justify-content: center;
+    }
+    .studentButton{
+        max-width: 288px;
+        width: 100%;
+    }
+    .locationMainDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .evergeenDiv{
+        width: 100%;
+        max-width: none;
+    }
+    .aboutDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .dedicatedDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .dedicatedP{
+        max-width: none;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .mainDiv {
+
+        width: 100%;
+    }
+
+    .burgerMenu {
+        display: inline;
+    }
+
+    .headerNavDiv {
+        max-width: 311px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .burgerMenu {
+        display: none;
+    }
+/*mobile*/
+}
+@media screen and (max-width:767px) {
+    .asideContainer {
+        display: none;
+    }
+    .tuneDiv{
+        max-width: 767px;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 228px;
+    }
+    .mainDiv{
+        max-width: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    header{
+        flex-wrap: wrap;
+        max-width: none;
+    }
+    .headerNavDiv{
+        gap: 8px;
+        align-items: center;
+        max-width: none;
+        width: 100%;
+        margin-bottom: 17px;
+    }
+    .tuneP{
+        font-size: 24px;
+    }
+    .headerSearchDiv{
+        max-width: none;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .headerNavLinks{
+        font-size: 14px;
+    }
+    .became-classButton{
+        max-width: fit-content;
+        width: 100%;
+        font-size: 8px;
+        flex-direction: column;
+        gap: 17px;
+        align-items: center
+    }
+    .contentButtonsDiv{
+        max-width: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .contentButons{
+        font-size: 15px;
+
+    }
+    main{
+        max-width: none;
+        width: 100%;
+    }
+    .formMainDiv{
+        max-width: none;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .andrioRichardDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .andrioRichardWrapper{
+        max-width: none;
+        width: 100%;
+    }
+    .andrioNameDiv{
+        max-width: none;
+        width: 100%;
+        justify-content: center;
+    }
+    .andrioSpan{
+        max-width: none;
+        width: 100%;
+    }
+    .student-FreelancesDiv{
+        max-width: none;
+        width: 100%;
+        justify-content: center;
+    }
+    .locationMainDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .evergeenDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .aboutDiv{
+        max-width: none;
+    }
+    .dedicatedDiv{
+        max-width: none;
+    }
+    .dedicatedP{
+        max-width: none;
+        font-size: 19px;
+    }
+    .formWrapper{
+        max-width: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .nameInputDiv{
+        max-width: none;
+    }
+    .name-emailDiv{
+        flex-direction: column;
+        display: flex;
+        max-width: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .number-dateDiv{
+        flex-direction: column;
+        display: flex;
+        max-width: none;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .infoDiv{
+        max-width: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .detailsInfoDiv{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .departamentDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .development-departamentDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .personalDiv{
+        gap: 0px;
+        max-width: none;
+    }
+    .personalnformationDiv{
+        margin-bottom: 24px;
+    }
+    .additionalDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .linkedin-httpsDiv{
+        max-width: none;
+        width: 100%;
+    }
+    .secondForm{
+        max-width: none;
+        width: 100%;
+    }
+    .firstSelect{
+        max-width: none;
+    }
+}
